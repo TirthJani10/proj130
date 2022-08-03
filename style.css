@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body{
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+}
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+.note{
+    color: black;
+    font-size: 15px;
+}
+.song_name{
+    font-size: 20px;
+}
+canvas{
+    background-color: white;
+    /* background: pink; */
+	/* border-radius: 20px; */
+	position: absolute;
+	/* transform: translate(-50%, -50%); */
+	border: 10px solid transparent;
+	border-image:linear-gradient(45deg, red, rgb(224, 41, 41), rgb(199, 20, 77), #088F8F, #0096FF) ;
+	border-image-slice:1;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    
+
+}
